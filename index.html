@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kukur-raksha</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    .container-fluid{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(bg.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    .container{
+        width: 1200px;
+        height: 80px;
+        /* background-color: grey; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 25px;
+    }
+    .container h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .navbar{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        list-style: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+        text-decoration: none;
+        
+    }
+    .navbar:hover{
+        color: #30d300;
+    }
+    .container ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container ul li{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        list-style: none;
+        margin-right: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .container ul li:first-child{
+        color: #30d300;
+    }
+    .container ul li:hover{
+        color: #30d300;
+    }
+    .container .btn{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        font-size:18px;
+        border: none;
+        background-color: #fff;
+        color: #30d300;
+        transition: 0.3s;
+    }
+    .container .btn:hover{
+        background-color: #30d300;
+        color: #fff;
+    }
+    .content{
+        width: 1200px;
+        height: 100vh;
+        /* background-color: grey; */
+        margin: auto;
+    }
+    .content h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    .content p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: lightgrey;
+        line-height: 30px;
+        padding-top: 30px;
+    }
+    h2{
+        color: lightgray;
+    }
+    .content .btn {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        font-size:18px;
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        transition: 0.3s;
+        margin-top: 30px;
+    }
+    .content .btn:hover{
+        background-color: #fff;
+        color: #30d300;
+        }
+    a{
+        color: #30d300;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="container-fluid">
+
+        <div class="container">
+            <h2>Kukur-Raksha</h2>
+            <ul>
+                <li >HOME</li>
+                <li > <a class="navbar" href="about.html">ABOUT</a> </li>
+                <li > <a class="navbar" href="donation.html">DONATION</a> </li>
+                <li > <a class="navbar" href="adoption.html">ADOPTION</a> </li>
+                <li> <a class="navbar" href="awareness.html">AWARENESS</a> </li>
+            </ul>
+            <button class="btn"><ion-icon name="call-outline"></ion-icon>+91-7983916321</button>
+        </div>
+        <div class="content">
+            <h1>Kukur-Raksha.</h1>
+            <p><h2>Kukur Raksha a site for adoption donation and awareness for dogs. <br>We have different sections for different services, You can visit those sections for  more clearness and understanding. </h2></p>
+            <button class="btn"> <a href="queries.html">Queries</a></button>
+            <p>Location : LPU, Phagwara, Pujab</p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
